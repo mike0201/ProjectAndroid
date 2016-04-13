@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="techni.mb.android.bloggies.fragment.BloggiesFragment"
+    android:background="@color/grey"
+    android:clickable="true">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+
+
+        <EditText
+            android:id="@+id/email_bloggies"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/login_bloggies"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/login"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/pass_bloggies"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:layout_gravity="center"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/conf_pass_bloggies"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:layout_gravity="center"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/button_inscription_boogies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inscription_boogies_button"
+            android:background="@color/darkgrey"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</FrameLayout>

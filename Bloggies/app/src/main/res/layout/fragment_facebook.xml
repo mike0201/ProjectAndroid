@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="techni.mb.android.bloggies.fragment.FacebookFragment"
+    android:background="@color/grey"
+    android:clickable="true">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView_FacebookFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facebook"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/editText_login_facebook"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_login_facebook"
+            android:layout_gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/editText_password_facebook"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/connexion_fragment_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/connexion"
+            android:background="@color/darkgrey"/>
+    </LinearLayout>
+
+</FrameLayout>

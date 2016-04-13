@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bloggies</string>
+    <string name="connexion_facebook">Connexion via Facebook</string>
+    <string name="connexion_twitter">Connexion via Twitter</string>
+    <string name="creation_compte_bloggies">Création d\'un compte bloggies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_login_twitter">Email ou pseudonyme</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="connexion">Connexion</string>
+    <string name="hint_login_facebook">Email</string>
+    <string name="connecte">Félicitations vous êtes connecté !!!</string>
+    <string name="element_manquant">Login ou Password manquant</string>
+    <string name="text_element_manquant">L\'email ou le mot de passe est manquant !</string>
+    <string name="mail_invalide">Mail invalide !</string>
+    <string name="text_mail_invalide">L\'adresse mail est invalide !</string>
+    <string name="email">E-mail ?</string>
+    <string name="login">Login ?</string>
+    <string name="inscription_boogies_button">Inscription</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="text_password_invalide">les deux mot de passe ne corresponde pas</string>
+    <string name="password_invalide">password incorrecte</string>
+    <string name="champ_vide">Champ vide</string>
+    <string name="text_champ_vide">Un des champs est vide</string>
+</resources>
