@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MeteoApp</string>
+    <string name="hint_cityName">Encodez le nom de la ville ici !</string>
+    <string name="searchButton">Chercher température</string>
+    <string name="label_condition">Condition météo :</string>
+    <string name="label_temp">Température :</string>
+    <string name="label_temp_feel">Température ressentie :</string>
+    <string name="hour100">1h00</string>
+    <string name="hour400">4h00</string>
+    <string name="hour700">7h00</string>
+    <string name="hour1000">10h00</string>
+    <string name="hour1300">13h00</string>
+    <string name="hour1600">16h00</string>
+    <string name="hour1900">19h00</string>
+    <string name="hour2200">22h00</string>
+    <string name="moyenne">Moyenne des température du jour</string>
+    <string name="date">Date :</string>
+</resources>

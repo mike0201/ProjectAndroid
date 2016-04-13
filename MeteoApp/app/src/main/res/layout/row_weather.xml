@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+<LinearLayout
+    android:id="@+id/first_part"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+<ImageView
+    android:id="@+id/icon_weather_row"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/info_general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"/>
+        <TextView
+            android:id="@+id/date_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/condition_weather_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_condition"/>
+        <TextView
+            android:id="@+id/condition_weather_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/temp_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_temp"/>
+        <TextView
+            android:id="@+id/temp_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/temp_feel_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_temp_feel"/>
+        <TextView
+            android:id="@+id/temp_feel_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/second_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour100"/>
+           <TextView
+               android:id="@+id/chance_100"
+               android:layout_below="@id/label_100"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+       </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_400"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour400"/>
+            <TextView
+                android:id="@+id/chance_400"
+                android:layout_below="@id/label_400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_700"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour700"/>
+            <TextView
+                android:id="@+id/chance_700"
+                android:layout_below="@id/label_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour1000"/>
+            <TextView
+                android:id="@+id/chance_1000"
+                android:layout_below="@id/label_1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_1300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour1300"/>
+            <TextView
+                android:id="@+id/chance_1300"
+                android:layout_below="@id/label_1300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_1600"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour1600"/>
+            <TextView
+                android:id="@+id/chance_1600"
+                android:layout_below="@id/label_1600"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_1900"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour1900"/>
+            <TextView
+                android:id="@+id/chance_1900"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/label_1900"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_2200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour2200"/>
+            <TextView
+                android:id="@+id/chance_2200"
+                android:layout_below="@id/label_2200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/moyenne_temp_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moyenne"/>
+    <TextView
+        android:id="@+id/moyenne_temp_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
